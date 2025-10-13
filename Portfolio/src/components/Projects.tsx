@@ -34,8 +34,8 @@ const Projects = () => {
       description: "This very portfolio website showcasing my skills, projects, and experience with modern web technologies.",
       image: portfolioSite,
       techStack: ["React", "Tailwind CSS", "TypeScript", "Vite"],
-      githubUrl: "https://github.com/johndoe/portfolio",
-      liveUrl: "https://johndoe-portfolio.vercel.app",
+      githubUrl: "https://github.com/Dhurwaravishankar/Portfolio",
+      liveUrl: "https://portfolio-7czn.vercel.app/",
       featured: false,
     },
     {
