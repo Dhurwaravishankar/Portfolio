@@ -5,66 +5,77 @@ import { Badge } from "@/components/ui/badge";
 
 const Resume = () => {
   const experiences = [
-    {
-      title: "Frentend Developer",
-      company: "TechCorp Solutions",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
-      description: "Lead development of scalable web applications using React, Node.js, and cloud technologies. Mentor junior developers and architect solutions for enterprise clients.",
-      achievements: [
-        "Increased application performance by 40%",
-        "Led team of 5 developers",
-        "Implemented CI/CD pipelines"
-      ]
-    },
-    {
-      title: "Frontend Developer",
-      company: "StartupXYZ",
-      location: "Remote",
-      period: "2021 - 2022",
-      description: "Developed responsive web applications and collaborated with design teams to create exceptional user experiences.",
-      achievements: [
-        "Built 15+ responsive web apps",
-        "Improved user engagement by 60%",
-        "Established component library"
-      ]
-    },
-    {
-      title: "Junior Web Developer",
-      company: "Digital Agency Pro",
-      location: "New York, NY",
-      period: "2020 - 2021",
-      description: "Started my professional journey developing websites for small businesses and learning modern web technologies.",
-      achievements: [
-        "Delivered 25+ client projects",
-        "Maintained 98% client satisfaction",
-        "Learned React and Node.js"
-      ]
-    }
-  ];
+  {
+    title: "Freelance Web Developer",
+    company: "Self-Employed",
+    location: "India",
+    period: "2023 - Present",
+    description:
+      "Designing and developing interactive and user-friendly websites for clients using HTML, CSS, JavaScript, and React. Focused on creating clean, responsive interfaces and improving user experience.",
+    achievements: [
+      "Developed 10+ responsive websites for local businesses and startups",
+      "Implemented dynamic features using JavaScript and React",
+      "Worked with clients to understand requirements and deliver custom web solutions"
+    ]
+  },
+  {
+    title: "Web Development Trainee",
+    company: "Navgurukul",
+    location: "India",
+    period: "2024 - 2025",
+    description:
+      "Trained in full-stack web development with hands-on projects, collaborative coding, and real-world problem solving.",
+    achievements: [
+      "Built multiple projects using HTML, CSS, and JavaScript",
+      "Collaborated in group projects and hackathons",
+      "Gained experience in responsive design and version control (Git)"
+    ]
+  },
+  {
+    title: "Project Intern",
+    company: "Bastar Craft Startup (Self-Initiated)",
+    location: "Bijapur, Chhattisgarh",
+    period: "2021 - 2022",
+    description:
+      "Worked on a startup idea promoting Bastar’s traditional crafts and natural products through digital platforms.",
+    achievements: [
+      "Created a basic website to showcase local crafts and products",
+      "Collaborated with local artisans for product cataloging",
+      "Learned fundamentals of entrepreneurship and e-commerce presentation"
+    ]
+  }
+];
+
 
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      school: "University of Technology",
-      location: "San Francisco, CA",
-      period: "2016 - 2020",
+       degree: "Software Programming (HTML, CSS, JavaScript, React)",
+    school: "Navgurukul",
+    location: "India",
+    period: "2024-2025 - Present",
       gpa: "3.8/4.0"
-    }
+    },
+    {
+    degree: "Higher Secondary (Mathematics Stream)",
+    school: "Bijapur Higher Secondary School",
+    location: "Bijapur, Chhattisgarh",
+    period: "2018 - 2020",
+    percentage: "89%"
+  },
   ];
 
   const certifications = [
     "AWS Certified Developer",
-    "Google Cloud Professional",
-    "React Advanced Patterns",
+    "Version Controle Certified ",
+    "Prompt Engineer Certified ",
     "Node.js Certified Developer"
   ];
 
   const handleDownloadResume = () => {
     // In a real app, this would download the actual PDF
     const link = document.createElement('a');
-    link.href = '/john-doe-resume.pdf';
-    link.download = 'John_Doe_Resume.pdf';
+    link.href = '/Dhurwa.pdf';
+    link.download = 'Dhurwa.pdf';
     link.click();
   };
 

@@ -4,29 +4,29 @@ import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge";
 
 // Import project images
-import weatherApp from "@/assets/weather-app.jpg";
-import taskManager from "@/assets/task-manager.jpg";
-import portfolioSite from "@/assets/portfolio-site.jpg";
-import ecommerceLite from "@/assets/ecommerce-lite.jpg";
+import weatherApp from "@/assets/responsive_d.png";
+import taskManager from "@/assets/Baster_w.png";
+import portfolioSite from "@/assets/portfolio.png";
+import ecommerceLite from "@/assets/ecommerce-lite.png";
 
 const Projects = () => {
   const projects = [
     {
-      title: "WeatherNow App",
+      title: "Responsive_Design",
       description: "A beautiful weather application with real-time weather data, location-based forecasts, and an intuitive user interface.",
       image: weatherApp,
-      techStack: ["React", "TypeScript", "Weather API", "Tailwind CSS"],
-      githubUrl: "https://github.com/johndoe/weather-app",
-      liveUrl: "https://weather-now-demo.vercel.app",
+      techStack: ["HTML", "CSS"],
+      githubUrl: "https://github.com/Dhurwaravishankar/responsive_design",
+      liveUrl: "https://responsive-design-murex.vercel.app/",
       featured: true,
     },
     {
-      title: "TaskManager Pro",
+      title: "Chलगुंबे बस्तर",
       description: "A comprehensive task management application with user authentication, team collaboration, and real-time updates.",
       image: taskManager,
-      techStack: ["Node.js", "MongoDB", "React", "Socket.io"],
-      githubUrl: "https://github.com/johndoe/task-manager",
-      liveUrl: "https://taskmanager-pro-demo.vercel.app",
+      techStack: ["React", "Tailwindcss", "MongoDB"],
+      githubUrl: "https://github.com/Dhurwaravishankar/Baster_Wender",
+      liveUrl: "https://baster-wender-rr8w.vercel.app/",
       featured: true,
     },
     {
@@ -39,12 +39,12 @@ const Projects = () => {
       featured: false,
     },
     {
-      title: "E-Commerce Lite",
+      title: "E-Commerce (MAMA MAN'S)",
       description: "A responsive e-commerce interface demo with product catalogs, shopping cart functionality, and modern UI design.",
       image: ecommerceLite,
-      techStack: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+      techStack: ["HTML5", "CSS3", "Tailwindcss", "React", "Responsive Design"],
       githubUrl: "https://github.com/johndoe/ecommerce-lite",
-      liveUrl: "https://ecommerce-lite-demo.vercel.app",
+      liveUrl: "https://preview--mama-mans-96.lovable.app/style-guide",
       featured: false,
     },
   ];
@@ -146,7 +146,7 @@ const Projects = () => {
             className="border-primary/20 hover:bg-primary/10 transition-smooth"
           >
             <a
-              href="https://github.com/johndoe"
+              href="https://github.com/Dhurwaravishankar"
               target="_blank"
               rel="noopener noreferrer"
             >

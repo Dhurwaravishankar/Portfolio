@@ -7,15 +7,15 @@ const Skills = () => {
       title: "Frontend",
       skills: [
         "React", "TypeScript", "JavaScript", "HTML5", "CSS3", 
-        "Tailwind CSS", "Next.js", "Vue.js", "Sass/SCSS", "Responsive Design"
+        "Tailwind CSS","Sass/SCSS", "Responsive Design"
       ],
       color: "bg-blue-500/10 text-blue-600 border-blue-500/20",
     },
     {
       title: "Backend",
       skills: [
-        "Node.js", "Express.js", "Python", "PostgreSQL", "MongoDB", 
-        "REST APIs", "GraphQL", "JWT Auth", "Prisma", "Supabase"
+        // "Node.js", "Express.js", "Python", "PostgreSQL", "Prisma", 
+        "REST APIs", "GraphQL", "Supabase", "Supabase","MongoDB"
       ],
       color: "bg-green-500/10 text-green-600 border-green-500/20",
     },
@@ -30,11 +30,11 @@ const Skills = () => {
   ];
 
   const proficiencyLevels = [
-    { skill: "React/TypeScript", level: 95 },
-    { skill: "Node.js/Express", level: 90 },
+    { skill: "DevOps/Deployment", level: 100 },
+    { skill: "UI/UX Design", level: 90 },
+    { skill: "React/TypeScript", level: 70 },
     { skill: "Database Design", level: 85 },
-    { skill: "UI/UX Design", level: 80 },
-    { skill: "DevOps/Deployment", level: 75 },
+    { skill: "Node.js/Express", level: 40 },
   ];
 
   return (

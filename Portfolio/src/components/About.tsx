@@ -1,6 +1,6 @@
 import { Code, Coffee, Lightbulb, Users } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/profile-photo.png";
 
 const About = () => {
   const highlights = [
@@ -42,11 +42,11 @@ const About = () => {
           {/* Profile Image */}
           <div className="text-center lg:text-left">
             <div className="relative inline-block mb-8">
-              <div className="w-80 h-80 mx-auto lg:mx-0 rounded-2xl overflow-hidden shadow-custom-lg">
+              <div className="w-80 h-90 mx-auto lg:mx-0 rounded-2xl overflow-hidden shadow-custom-lg ">
                 <img
                   src={profilePhoto}
-                  alt="John Doe - Full-Stack Developer"
-                  className="w-full h-full object-cover hover:scale-105 transition-spring"
+                  alt="Dhurwa - Frentend Developer"
+                  className="w-full h-full object-cover hover:scale-105 transition-spring ju"
                 />
               </div>
               <div className="absolute -top-4 -right-4 w-24 h-24 hero-gradient rounded-full opacity-20 animate-pulse"></div>
@@ -61,9 +61,9 @@ const About = () => {
                 Hi there! I'm Dhurwa Ravishankar
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                A passionate Full-Stack Web Developer with over 3 years of experience
+                A passionate Frontend Developer with over 1 years of experience
                 creating digital solutions that combine beautiful design with robust functionality.
-                I specialize in React, Node.js, and modern web technologies.
+                I specialize in React, and modern web technologies.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 When I'm not coding, you'll find me exploring new technologies,
@@ -76,15 +76,15 @@ const About = () => {
             <div className="bg-card rounded-xl p-6 shadow-custom-sm">
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-primary">2+</div>
+                  <div className="text-2xl font-bold text-primary">1+</div>
                   <div className="text-sm text-muted-foreground">Years Experience</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-primary">20+</div>
+                  <div className="text-2xl font-bold text-primary">10+</div>
                   <div className="text-sm text-muted-foreground">Projects Completed</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-primary">10+</div>
+                  <div className="text-2xl font-bold text-primary">9+</div>
                   <div className="text-sm text-muted-foreground">Happy Clients</div>
                 </div>
               </div>

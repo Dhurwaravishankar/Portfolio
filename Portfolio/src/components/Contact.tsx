@@ -24,7 +24,7 @@ const Contact = () => {
       const form = e.target as HTMLFormElement;
       const formData = new FormData(form);
       
-      const response = await fetch("https://formsubmit.co/bastaroil808@gmail.com", {
+      const response = await fetch("https://formsubmit.co/dhurwaravishankar24@navgurukul.org", {
         method: "POST",
         body: formData
       });
@@ -67,7 +67,7 @@ const Contact = () => {
       icon: Phone,
       label: "Phone",
       value: "+91 (782) 892-7804",
-      href: "tel:+15551234567"
+      href: "tel:+917828927804"
     },
     {
       icon: MapPin,
@@ -119,7 +119,7 @@ const Contact = () => {
             </CardHeader>
             <CardContent>
               <form 
-                action="https://formsubmit.co/bastaroil808@gmail.com" 
+                action="https://formsubmit.co/dhurwaravishankar24@navgurukul.org" 
                 method="POST" 
                 onSubmit={handleSubmit} 
                 className="space-y-6"

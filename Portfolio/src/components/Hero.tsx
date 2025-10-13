@@ -73,7 +73,7 @@ const Hero = () => {
                 className="border-primary/20 hover:bg-primary/10 transition-smooth"
               >
                 <a
-                  href="https://github.com"
+                  href="https://github.com/Dhurwaravishankar"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -87,7 +87,7 @@ const Hero = () => {
                 className="border-primary/20 hover:bg-primary/10 transition-smooth"
               >
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/dhurwa-ravishankar/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -100,7 +100,7 @@ const Hero = () => {
                 asChild
                 className="border-primary/20 hover:bg-primary/10 transition-smooth"
               >
-                <a href="mailto:bastaroil808@gmail.com">
+                <a href="mailto:dhurwaravishankar24@navgurukul.org">
                   <Mail className="h-5 w-5" />
                 </a>
               </Button>
