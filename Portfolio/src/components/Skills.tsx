@@ -6,7 +6,7 @@ const Skills = () => {
     {
       title: "Frontend",
       skills: [
-        "React", "TypeScript", "JavaScript", "HTML5", "CSS3", 
+        "React", "JavaScript", "HTML5", "CSS3", 
         "Tailwind CSS","Sass/SCSS", "Responsive Design"
       ],
       color: "bg-blue-500/10 text-blue-600 border-blue-500/20",
@@ -15,7 +15,7 @@ const Skills = () => {
       title: "Backend",
       skills: [
         // "Node.js", "Express.js", "Python", "PostgreSQL", "Prisma", 
-        "REST APIs", "GraphQL", "Supabase", "Supabase","MongoDB"
+        "REST APIs", "Firebase", "Supabase","MongoDB"
       ],
       color: "bg-green-500/10 text-green-600 border-green-500/20",
     },
