@@ -49,9 +49,9 @@ const Resume = () => {
 
   const education = [
     {
-       degree: "Software Programming (HTML, CSS, JavaScript, React)",
+       degree: "Software Programming",
     school: "Navgurukul",
-    location: "India",
+    location: "Dantewada Chhattisgarh India",
     period: "2024-2025 - Present",
       gpa: "3.8/4.0"
     },
