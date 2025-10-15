@@ -13,7 +13,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Responsive_Design",
-      description: "A beautiful weather application with real-time weather data, location-based forecasts, and an intuitive user interface.",
+      description: "A modern UI layout project showcasing adaptive and flexible design principles. Built to ensure seamless viewing experiences across all devices, with a focus on clean structure, accessibility, and visual balance.",
       image: weatherApp,
       techStack: ["HTML", "CSS"],
       githubUrl: "https://github.com/Dhurwaravishankar/responsive_design",
