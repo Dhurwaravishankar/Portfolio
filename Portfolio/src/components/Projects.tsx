@@ -22,7 +22,7 @@ const Projects = () => {
     },
     {
       title: "Chलगुंबे बस्तर",
-      description: "A comprehensive task management application with user authentication, team collaboration, and real-time updates.",
+      description: "A vibrant travel website that showcases the natural beauty, culture, and destinations of Bastar. Designed with an engaging user interface, responsive layouts, and immersive visuals to inspire exploration and adventure.",
       image: taskManager,
       techStack: ["React", "Tailwindcss", "MongoDB"],
       githubUrl: "https://github.com/Dhurwaravishankar/Baster_Wender",
